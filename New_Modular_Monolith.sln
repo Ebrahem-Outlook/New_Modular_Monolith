@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.API", "Monolith.API\Monolith.API.csproj", "{7FE28FA2-9F0E-41ED-9500-A8F618F14905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.API", "src\Monolith.API\Monolith.API.csproj", "{7FE28FA2-9F0E-41ED-9500-A8F618F14905}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E75B7350-8157-45DE-B908-BF344323621E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD4B0CC2-DFB3-4CB5-9984-6AC24B0244DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Domain", "Monolith.Domain\Monolith.Domain.csproj", "{92F5B7E3-070C-4CB5-ABDF-D33DE40A6247}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Domain", "src\Monolith.Domain\Monolith.Domain.csproj", "{92F5B7E3-070C-4CB5-ABDF-D33DE40A6247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Application", "Monolith.Application\Monolith.Application.csproj", "{653C0C2B-7A3D-4DE8-B805-12037072802C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Application", "src\Monolith.Application\Monolith.Application.csproj", "{653C0C2B-7A3D-4DE8-B805-12037072802C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Infrastructure", "Monolith.Infrastructure\Monolith.Infrastructure.csproj", "{6C90AC19-0060-4C7A-A671-6BA12BC0C69F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Infrastructure", "src\Monolith.Infrastructure\Monolith.Infrastructure.csproj", "{6C90AC19-0060-4C7A-A671-6BA12BC0C69F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.API.Test", "Monolith.API.Test\Monolith.API.Test.csproj", "{DBFC25C9-3DB9-4C8D-A1A0-0951A453FC7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.API.Test", "test\Monolith.API.Test\Monolith.API.Test.csproj", "{DBFC25C9-3DB9-4C8D-A1A0-0951A453FC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Domain.Test", "Monolith.Domain.Test\Monolith.Domain.Test.csproj", "{3C3F422D-C641-4B68-882C-BD58BC63B583}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Domain.Test", "test\Monolith.Domain.Test\Monolith.Domain.Test.csproj", "{3C3F422D-C641-4B68-882C-BD58BC63B583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Application.Test", "Monolith.Application.Test\Monolith.Application.Test.csproj", "{C47203AC-7999-4241-B648-39BC54CAFD15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Application.Test", "test\Monolith.Application.Test\Monolith.Application.Test.csproj", "{C47203AC-7999-4241-B648-39BC54CAFD15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Infrastructure.Test", "Monolith.Infrastructure.Test\Monolith.Infrastructure.Test.csproj", "{95D8423B-737F-4252-B209-7342DD6B0522}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Infrastructure.Test", "test\Monolith.Infrastructure.Test\Monolith.Infrastructure.Test.csproj", "{95D8423B-737F-4252-B209-7342DD6B0522}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
