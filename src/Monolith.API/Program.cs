@@ -1,3 +1,4 @@
+using Monolith.Application;
 using Monolith.Infrastructure;
 
 namespace Monolith.API;
@@ -10,12 +11,13 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddControllers();
+        builder.Services.AddApplication();
         builder.Services.AddInfrastructure(builder.Configuration);
+
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-
 
 
         var app = builder.Build();

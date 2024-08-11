@@ -124,5 +124,12 @@ namespace Monolith.Infrastructure.Repositories
                                   .Where(user => user.Name == name)
                                   .ToListAsync(cancellationToken);
         }
+
+        public async Task<bool> IsEmailUniqueAsync(string email, CancellationToken cancellationToken)
+        {
+            return !await dbContext.Set<User>()
+                                   .AsNoTracking()
+                                   .AnyAsync(user => user.Email == email, cancellationToken);
+        }
     }
 }

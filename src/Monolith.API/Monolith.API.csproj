@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Monolith.Infrastructure\Monolith.Infrastructure.csproj" />
   </ItemGroup>
 

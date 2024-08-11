@@ -11,7 +11,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Users\Commands\DeleteUser\" />
+    <Folder Include="Users\Commands\UpdatePassword\" />
+    <Folder Include="Users\Commands\UpdateEmail\" />
+    <Folder Include="Users\Events\EmailUpdated\" />
+    <Folder Include="Users\Events\PasswordUpdated\" />
+    <Folder Include="Users\Events\UserDeleted\" />
+    <Folder Include="Users\Events\UserUpdated\" />
+    <Folder Include="Users\Events\UserCreated\" />
+    <Folder Include="Users\Queries\GetAll\" />
+    <Folder Include="Users\Queries\GetById\" />
+    <Folder Include="Users\Queries\GetByName\" />
+    <Folder Include="Users\Queries\GetByEmail\" />
+    <Folder Include="Users\Queries\GetByUserName\" />
   </ItemGroup>
 
 </Project>

@@ -32,7 +32,7 @@ public sealed class User : AggregateRoot
         return user;
     } 
 
-    public void EditProfile(string name, string bio)
+    public void UpdateUser(string name, string bio)
     {
         Name = name;
         Bio = bio;

@@ -13,4 +13,5 @@ public interface IUserRepository
     Task<User?> GetUserByUserNameAsync(string userName, CancellationToken cancellationToken);
     Task<User?> GetUserByEmailAsync(string email, CancellationToken cancellationToken);
     Task<List<User>> GetUserByNameAsync(string name, CancellationToken cancellationToken);
+    Task<bool> IsEmailUniqueAsync(string email, CancellationToken cancellationToken);
 }
